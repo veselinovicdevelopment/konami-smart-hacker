@@ -1,0 +1,90 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0969da;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+/* Home page */
+.container {
+  padding: 0 2rem;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.main {
+  min-height: 100vh;
+  margin-top: 100px;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.issues-wrapper {
+  border: 1px solid #ebebeb;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.issue {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.issue:not(:last-child) {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.issue-title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.issue-desc {
+  color: #57606a;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.issue-right a{
+  display: flex;
+  gap: 4px;
+  font-size: 12px;
+  color: #57606a;
+  margin-top: 10px;
+}
